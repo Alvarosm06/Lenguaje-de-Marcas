@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<torneo_tenis>
+    <nombre>Wembley Torneum</nombre>
+    <fecha_de_inicio>30/09/2024</fecha_de_inicio>
+    <fecha_de_finalización>02/10/2024</fecha_de_finalización>
+    <partido>
+        <fecha_partido>30/09/2024</fecha_partido>
+        <jugadores>
+            <jugador>
+                <nombre>Rafael Nadal</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Carlos Alcaraz</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+        <resultados>
+            <set1>6-4</set1>
+            <set2>4-6</set2>
+            <set3>6-1</set3>
+        </resultados>
+    </partido>
+    <partido>
+        <fecha_partido>01/10/2024</fecha_partido>
+        <jugadores>
+            <jugador>
+                <nombre>Roger Federer</nombre>
+                <nacionalidad>Suizo</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Novak Djokovic</nombre>
+                <nacionalidad>Serbio</nacionalidad>
+            </jugador>
+        </jugadores>
+        <resultados>
+            <set>6-3</set>
+            <set>6-5</set>
+            <set>6-1</set>
+        </resultados>
+    </partido>
+</torneo_tenis>

@@ -1,0 +1,27 @@
+<listafacturas>
+
+    <factura fecha="30-09-2024">
+        <emisor cif="3245678T">
+            <nombre>Pedro González Vasco</nombre>
+            <provincio>Sevilla</provincio>
+        </emisor>
+        <pagador cif="6525646A">
+            <nombre>Juan García Velázquez</nombre>
+            <provincio>Córdoba</provincio>
+        </pagador>
+        <importe>199,99€</importe>
+    </factura>
+
+    <factura fecha="29-09-2024">
+        <emisor cif="9812367S">
+            <nombre>Álvaro Segovia Mendoza</nombre>
+            <provincio>Huelva</provincio>
+        </emisor>
+        <pagador cif="7459812F">
+            <nombre>Alejandro Pérez di Marco</nombre>
+            <provincio>Jaén</provincio>
+        </pagador>
+        <importe>210,89€</importe>
+    </factura>
+
+</listafacturas>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catálogo_ventas>
+    <libros>
+        <libro>
+            <título>Cien años de soledad</título>
+            <autor>Gabriel García Márquez</autor>
+            <año_publicación>1967</año_publicación>
+            <precio>15€</precio>
+            <género>Novela</género>
+            <disponibilidad disponible="si">Está disponible</disponibilidad>
+        </libro>
+        <libro>
+            <título>Don Quijote de la Mancha</título>
+            <autor>Miguel de Cervantes</autor>
+            <año_publicación>1605</año_publicación>
+            <precio>10€</precio>
+            <género>Novela</género>
+            <disponibilidad disponible="no">No está disponible</disponibilidad>
+        </libro>
+        <libro>
+            <título>El túnel</título>
+            <autor>Ernesto Sabato</autor>
+            <año_publicación>1948</año_publicación>
+            <precio>15€</precio>
+            <género>Novela</género>
+            <disponibilidad disponible="no">No está disponible</disponibilidad>
+        </libro>
+        <libro>
+            <título>La casa de los espíritus</título>
+            <autor>Isabel Allende</autor>
+            <año_publicación>1982</año_publicación>
+            <precio>12€</precio>
+            <género>Novela</género>
+            <disponibilidad disponible="si">Está disponible</disponibilidad>
+        </libro>
+        <libro>
+            <título>Ficciones</título>
+            <autor>Jorge Luis Borges</autor>
+            <año_publicación>1944</año_publicación>
+            <precio>20€</precio>
+            <género>Cuentos</género>
+            <disponibilidad disponible="si">Está disponible</disponibilidad>
+        </libro>
+    </libros>
+</catálogo_ventas>

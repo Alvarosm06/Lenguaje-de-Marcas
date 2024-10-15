@@ -1,0 +1,42 @@
+<instituto>
+    <nombre_instituto>IES ALIXAR</nombre_instituto>
+    <direccion>Av. de la Unidad, 14, 41950 Castilleja de la Cuesta, Sevilla</direccion>
+   
+    <alumno>
+        <nombre>Álvaro</nombre>
+        <apellidos>Segovia Mendoza</apellidos>
+        <fecha_de_nacimiento>
+            <dia>01</dia>
+            <mes>Febrero</mes>
+            <año>2006</año>
+        </fecha_de_nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Alejandro</nombre>
+        <apellidos>Pérez di Marco</apellidos>
+        <fecha_de_nacimiento>
+            <dia>05</dia>
+            <mes>Marzo</mes>
+            <año>2006</año>
+        </fecha_de_nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Jóse</nombre>
+        <apellidos>González Vega</apellidos>
+        <fecha_de_nacimiento>
+            <dia>10</dia>
+            <mes>Diciembre</mes>
+            <año>2005</año>
+        </fecha_de_nacimiento>
+    </alumno>
+    <profesor>
+        <nombre>Miguel</nombre>
+        <apellidos>Cervantes Castilla</apellidos>
+        <especialidad>FOL</especialidad>
+    </profesor>
+    <profesor>
+        <nombre>Juan</nombre>
+        <apellidos>Pérez Carrillo</apellidos>
+        <especialidad>Programación</especialidad>
+    </profesor>
+</instituto>

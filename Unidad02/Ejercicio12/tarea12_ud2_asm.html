@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este ejercicio 12 trata sobre tablas en html compleja con bordes sin colapsar">
+    <meta name="keywords" content="html,daw,tarea12,tablas completas con bordes sin colapsar">
+    <meta name="author" content="Álvaro Segovia Mendoza">
+    <title>tarea12_ud2_asm</title>
+    <style>
+        td,
+        th,
+        table {
+            border: 2px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color: rgb(255, 172, 179)">
+        </colgroup>
+        <thead>
+            <caption style="background-color: rgb(47, 233, 247);">HORARIO DE CLASE 2024-2025</caption>
+            <tr style="background-color: rgb(51, 207, 51);">
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td colspan="5"><b>RECREO</b></td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

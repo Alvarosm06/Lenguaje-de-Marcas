@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cine>
+    <cartelera>
+        <peliculas>
+            <pelicula>
+                <nombre>La La Land</nombre>
+                <sala>1</sala>
+                <sesiones>
+                    <sesion>1 de octubre, 16:00</sesion>
+                    <sesion>1 de octubre, 20:00</sesion>
+                </sesiones>
+                <director>
+                    <nombre>Damien Chazelle</nombre>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                    <premios_destacados>Oscar a Mejor Director</premios_destacados>
+                </director>
+                <protagonistas>
+                    <protagonista>
+                        <nombre>Ryan Gosling</nombre>
+                        <fecha_nacimiento>12-11-80</fecha_nacimiento>
+                        <géneros_destacados>Drama, Romance</géneros_destacados>
+                    </protagonista>
+                    <protagonista>
+                        <nombre>Emma Stone</nombre>
+                        <fecha_nacimiento>06-11-88</fecha_nacimiento>
+                        <géneros_destacados>Drama, Romance</géneros_destacados>
+                    </protagonista>
+                </protagonistas>
+                <resumen>Un pianista de jazz y una aspirante a actriz se enamoran en 
+                Los Ángeles mientras persiguen sus sueños. A medida que sus carreras despegan, 
+                enfrentan desafíos que ponen a prueba su amor y sus ambiciones.</resumen>
+            </pelicula>
+            <pelicula>
+                <nombre>El Laberinto del Fauno</nombre>
+                <sala>2</sala>
+                <sesiones>
+                    <sesion>1 de octubre, 18:00</sesion>
+                    <sesion>1 de octubre, 21:00</sesion>
+                </sesiones>
+                <director>
+                    <nombre>Guillermo del Toro</nombre>
+                    <nacionalidad>Mexicano</nacionalidad>
+                    <premios_destacados>Oscar a Mejor Director</premios_destacados>
+                </director>
+                <protagonistas>
+                    <protagonista>
+                        <nombre>Doug Jones</nombre>
+                        <fecha_nacimiento>11-11-94</fecha_nacimiento>
+                        <géneros_destacados>Fantasía, Drama</géneros_destacados>
+                    </protagonista>
+                    <protagonista>
+                        <nombre>Ivana Baquero</nombre>
+                        <fecha_nacimiento>24-05-60</fecha_nacimiento>
+                        <géneros_destacados>Fantasía, Drama</géneros_destacados>
+                    </protagonista>
+                </protagonistas>
+                <resumen>En la España de la posguerra, una joven llamada Ofelia descubre un 
+                mundo mágico y aterrador mientras enfrenta la brutalidad de su entorno. 
+                Guiada por un fauno, deberá cumplir tres tareas para demostrar que es 
+                la reencarnación de una princesa.</resumen>
+            </pelicula>
+            <pelicula>
+                <nombre>Inception (Origen)</nombre>
+                <sala>3</sala>
+                <sesiones>
+                    <sesion>1 de octubre, 17:00</sesion>
+                    <sesion>1 de octubre, 22:00</sesion>
+                </sesiones>
+                <director>
+                    <nombre>Christopher Nolan</nombre>
+                    <nacionalidad>Británico-estadounidense</nacionalidad>
+                    <premios_destacados>Oscar a Mejor Guion Original</premios_destacados>
+                </director>
+                <protagonistas>
+                    <protagonista>
+                        <nombre>Leonardo DiCaprio</nombre>
+                        <fecha_nacimiento>11-11-94</fecha_nacimiento>
+                        <géneros_destacados>Fantasía, Drama</géneros_destacados>
+                    </protagonista>
+                    <protagonista>
+                        <nombre>Joseph Gordon-Levitt</nombre>
+                        <fecha_nacimiento>10-11-92</fecha_nacimiento>
+                        <géneros_destacados>Fantasía, Drama</géneros_destacados>
+                    </protagonista>
+                </protagonistas>
+                <resumen>Un ladrón especializado en robar secretos del subconsciente es 
+                contratado para implantar una idea en la mente de un empresario. 
+                A medida que navega por los sueños y la realidad, se enfrenta a sus propios 
+                demonios y a los peligros de su misión.</resumen>
+            </pelicula>
+        </peliculas>
+    </cartelera>
+</cine>
