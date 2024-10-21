@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este ejercicio 16 trata sobre formulario agrupados">
+    <meta name="keywords" content="html,daw,tarea16,formularios agrupados, lenguaje de marcas">
+    <meta name="author" content="Álvaro Segovia Mendoza">
+    <title>tarea16_ud2_asm</title>
+    <style>
+        ul {list-style: none;}
+    </style>
+</head>
+<body>
+    <h1>HOJA DE INSCRIPCIÓN <br/> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend><b>DATOS PERSONALES</b></legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nombre">NOMBRE:</label><br/>
+                            <input type="text" name="nombre" id="nombre">
+                        </td>
+                        <td>
+                            <label for="apellidos">APELLIDOS:</label><br/>
+                            <input type="text" name="apellidos" id="apellidos">
+                        </td>
+                        <td>
+                            <label for="dni">DNI:</label><br/>
+                            <input type="text" name="dni" id="dni">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="localidad_nacimiento">LOC.NACIMIENTO:</label><br/>
+                            <input type="text" name="localidad_nacimiento" id="localidad_nacimiento">
+                        </td>
+                        <td>
+                            <label for="provinicia">PROVINCIA:</label><br/>
+                            <select name="provinicia" id="provinicia">
+                                <optgroup label="Andalucia">
+                                    <option value="sevilla">Sevilla</option>
+                                    <option value="huelva">Huelva</option>
+                                    <option value="cadiz">Cádiz</option>
+                                    <option value="almeria">Almería</option>
+                                    <option value="granada">Granada</option>
+                                    <option value="malaga">Málaga</option>
+                                    <option value="cordoba">Córdoba</option>
+                                    <option value="jaen">Jaén</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="fecha_nacimiento">FECHA NACIMIENTO:</label><br/>
+                            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="direccion">DIRECCIÓN:</label><br/>
+                            <input type="text" name="direccion" id="direccion">
+                        </td>
+                        <td>
+                            <label for="cp">COD.POSTAL:</label><br/>
+                            <input type="number" name="cp" id="cp">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="email">Email:</label><br/>
+                            <input type="email" name="email" id="email">
+                        </td>
+                        <td>
+                            <label for="telefono">Telf.Móvil:</label><br/>
+                            <input type="tel" name="telefono" id="telefono">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>FORMA DE ACCESO</b></legend>
+            <p>Forma de acceso</p><br/>
+            <ul>
+                <li>
+                    <input type="radio" name="directo" value="directo">
+                    <label for="directo">DIRECTO</label>
+                </li>
+                <ul>
+                    <li>
+                        <input type="radio" name="directo" value="bachillerato_logse">
+                        <label for="bachillerato_logse">BACHILLERATO LOGSE</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="directo" value="bachillerato_experimental">
+                        <label for="bachillerato_experimental">BACHILLERATO EXPERIMENTAL</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="directo" value="cou">
+                        <label for="cou">COU</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="directo" value="fp2">
+                        <label for="fp2">FP2</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="directo" value="otro">
+                        <label for="otro">OTRO</label>
+                    </li>
+                </ul>
+                <li>
+                    <input type="radio" name="prueba_libre" value="prueba_libre">
+                    <label for="prueba_libre">PRUEBA LIBRE</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend><b>DOCUMENTOS ADJUNTOS</b></legend>
+            <input type="checkbox" name="foto_dni" id="foto_dni">
+            <label for="foto_dni">Fotocopia DNI</label>
+            <br/><br/>
+            <input type="checkbox" name="cert_academico" id="cert_academico">
+            <label for="cert_academico">Certificado Académico</label>
+            <br/><br/>
+            <input type="checkbox" name="otros_docs" id="otros_docs">
+            <label for="otros_docs">Otros documentos(Especificar)</label>
+            <input type="text" name="otros_docs" id="otros_docs"><br/>
+            <input type="file" name="otros_docs" id="otros_docs" >
+        </fieldset>
+        <br/>
+        <button type="submit">ENVIAR SOLICITUD</button>
+    </form>
+</body>
+</html>
